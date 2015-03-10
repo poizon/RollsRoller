@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rolls Roller Конфигуратор</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <link href="./css/bootstrapValidator.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <!--   <script src="/bootstrap/js/html5shiv.min.js"></script>
+      <script src="/bootstrap/js/respond.min.js"></script> -->
+    <![endif]-->
+    <style type="text/css">
+        .printer  {}
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="row">
+<div class="col-md-3">
+<table class="table">
+  <tr><td><a id="entry" href="./img/rolls-roller/entry_big.png"><img src="./img/rolls-roller/entry_sm.png" alt=""/></a></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="./img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="./img/checks/light_off.png" id="light1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="./img/checks/roll_off.png" id="roll1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="./img/checks/height_off.png" id="height1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="./img/checks/sign_off.png" id="sign1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Максимальная ширина</td><td>1.4 м</td></tr>
+  <tr><td>Максимальная длина</td><td>3.4 м</td></tr>
+  <tr class="info"><td colspan="2">ЦЕНА ОТ: 9 350 &#8364;</td></tr>
+  <tr style="text-align: center"><td colspan="2"><button type="button" class="btn btn-primary printer" value="entry"  data-toggle="modal" data-target="#myModal">Выбрать</button></td></tr>
+</table>
+</div>
+<div class="col-md-3">
+<table class="table">
+  <tr><td><a id="entry" href="./img/rolls-roller/regular_big.png"><img src="./img/rolls-roller/regular_sm.png" alt=""/></a></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="./img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="./img/checks/light_on.png" id="light2" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="./img/checks/roll_off.png" id="roll2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="./img/checks/height_off.png" id="height2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="./img/checks/sign_off.png" id="sign2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Максимальная ширина</td><td>1.7 м</td></tr>
+  <tr><td>Максимальная длина</td><td>4 м</td></tr>
+  <tr class="info"><td colspan="2">ЦЕНА ОТ: 11 900 &#8364;</td></tr>
+  <tr style="text-align: center"><td colspan="2"><button type="button" class="btn btn-primary printer" value="regular"  data-toggle="modal" data-target="#myModal">Выбрать</button></td></tr>
+</table>
+</div>
+
+<div class="col-md-3">
+<table class="table">
+  <tr><td><a id="entry" href="./img/rolls-roller/premium_big.png"><img src="./img/rolls-roller/premium_sm.png" alt=""/></a></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="./img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="./img/checks/light_on.png" id="light3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="./img/checks/roll_on.png" id="roll3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="./img/checks/height_on.png" id="height3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="./img/checks/sign_off.png" id="sign3" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Максимальная ширина</td><td>2.2 м</td></tr>
+  <tr><td>Максимальная длина</td><td>10.8 м</td></tr>
+  <tr class="info"><td colspan="2">ЦЕНА ОТ: 17 600 &#8364;</td></tr>
+  <tr style="text-align: center"><td colspan="2"><button type="button" class="btn btn-primary printer" value="premium"  data-toggle="modal" data-target="#myModal">Выбрать</button></td></tr>
+</table>
+</div>
+
+<div class="col-md-3">
+<table class="table">
+  <tr><td><a id="entry" href="./img/rolls-roller/traffic_big.png"><img src="./img/rolls-roller/traffic_sm.png" alt=""/></a></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="./img/checks/mat_off.png" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="./img/checks/light_off.png" id="light4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="./img/checks/roll_off.png" id="roll4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="./img/checks/height_off.png" id="height4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="./img/checks/sign_on.png" id="sign4" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Максимальная ширина</td><td>1.4 м</td></tr>
+  <tr><td>Максимальная длина</td><td>6 м</td></tr>
+  <tr class="info"><td colspan="2">ЦЕНА ОТ: 16 800 &#8364;</td></tr>
+  <tr style="text-align: center"><td colspan="2"><button type="button" class="btn btn-primary printer"  value="traffic"  data-toggle="modal" data-target="#myModal">Выбрать</button></td></tr>
+</table>
+</div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    
+    <div class="modal-content"><!-- ModalContent -->
+      
+      <form role="form" class="form-horizontal" action="/diller" method="post" id="attributeForm">
+        
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Контактная информация</h4>
+      </div>
+      
+  <div class="modal-body"><!-- Modalbody -->
+  
+  <div class="form-group">
+    <label for="InputTel" class="col-sm-4 control-label">Ваше имя</label>
+     <div class="col-sm-6">
+    <input type="text" class="form-control" id="InputName" placeholder="Как Вас зовут?" name="client" data-bv-notempty="true" data-bv-notempty-message="Пожалуйста, укажите Ваше имя">
+     </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="InputEmail" class="col-sm-4 control-label">Ваш Email</label>
+    <div class="col-sm-6">
+    <input type="email" class="form-control" id="InputEmail" placeholder="Укажите email" name="email" data-bv-notempty="true" data-bv-notempty-message="Пожалуйста, укажите Ваш email">
+      </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="InputTel" class="col-sm-4 control-label">Телефон для связи</label>
+    <div class="col-sm-6">
+    <input type="text" class="form-control" id="InputTel" placeholder="8 900 1234567" name="tel" data-bv-notempty="true" data-bv-notempty-message="Пожалуйста, укажите Ваш телефон">
+      </div>
+  </div>
+         
+      </div> <!-- /Modalbody -->
+  
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+      </form>
+      
+    </div> <!-- /ModalContent -->
+ </div>
+  
+</div>
+<!-- /Modal -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script>
+    var jq14 = jQuery.noConflict();
+</script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript">
+jq14(document).ready(function() {
+		 jq14(".img-swap").live('click', function() {
+		 	if (jq14(this).attr("class") == "img-swap") {
+			this.src = this.src.replace("_off","_on");
+                        jq14.cookie(this.id, 'on');
+                        //alert(this.id);
+			} else {
+			this.src = this.src.replace("_on","_off");
+                        jq14.cookie(this.id, 'off');
+			}
+			jq14(this).toggleClass("on");
+		});
+                 
+jq14("a#entry").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	 
+});
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrapValidator.min.js"></script>
+<script>
+    var $ = jQuery.noConflict();
+</script>
+
+<script>
+     $(document).ready(function() {
+        $('#attributeForm').bootstrapValidator();
+        
+        $('.printer').click(function() {
+            $.cookie('printer',this.value);
+            });
+        
+    });
+  </script>
+</body>
+</html>
