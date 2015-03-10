@@ -357,3 +357,202 @@
 [Tue Mar 10 16:25:04 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
 [Tue Mar 10 16:25:04 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
 [Tue Mar 10 16:25:04 2015] [debug] 500 Internal Server Error (0.088105s, 11.350/s).
+[Tue Mar 10 16:33:59 2015] [info] Listening at "http://*:3000".
+[Tue Mar 10 16:34:04 2015] [debug] GET "/".
+[Tue Mar 10 16:34:04 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Tue Mar 10 16:34:04 2015] [debug] Rendering template "index.html.ep".
+[Tue Mar 10 16:34:04 2015] [debug] 200 OK (0.023872s, 41.890/s).
+[Tue Mar 10 16:34:04 2015] [debug] GET "/img/checks/mat_off.png".
+[Tue Mar 10 16:34:04 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 16:34:04 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 16:34:04 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:34:04 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:34:04 2015] [debug] 404 Not Found (0.045583s, 21.938/s).
+[Tue Mar 10 16:34:14 2015] [debug] POST "/".
+[Tue Mar 10 16:34:14 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:34:14 2015] [error] Can't call method "printer" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 16.
+
+[Tue Mar 10 16:34:14 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:34:14 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:34:14 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:34:14 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:34:14 2015] [debug] 500 Internal Server Error (0.054304s, 18.415/s).
+[Tue Mar 10 16:34:58 2015] [debug] POST "/".
+[Tue Mar 10 16:34:58 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:34:58 2015] [error] Can't call method "name" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 16.
+
+[Tue Mar 10 16:34:58 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:34:58 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:34:58 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:34:58 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:34:58 2015] [debug] 500 Internal Server Error (0.053606s, 18.655/s).
+[Tue Mar 10 16:35:33 2015] [debug] POST "/".
+[Tue Mar 10 16:35:33 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:35:33 2015] [error] Can't call method "name" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 16.
+
+[Tue Mar 10 16:35:33 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:35:33 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:35:33 2015] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:35:33 2015] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:35:33 2015] [debug] 500 Internal Server Error (0.015834s, 63.155/s).
+[Tue Mar 10 16:35:40 2015] [debug] POST "/".
+[Tue Mar 10 16:35:40 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:35:40 2015] [error] Can't call method "value" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 16.
+
+[Tue Mar 10 16:35:40 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:35:40 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:35:40 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:35:40 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:35:40 2015] [debug] 500 Internal Server Error (0.054884s, 18.220/s).
+[Tue Mar 10 16:36:48 2015] [debug] POST "/".
+[Tue Mar 10 16:36:48 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:36:48 2015] [error] Can't locate object method "cookies" via package "RollsRoller::Controller::Index" at C:/strawberry/perl/site/lib/Mojolicious.pm line 126.
+
+[Tue Mar 10 16:36:48 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:36:48 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:36:48 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:36:48 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:36:48 2015] [debug] 500 Internal Server Error (0.063769s, 15.682/s).
+[Tue Mar 10 16:36:59 2015] [debug] POST "/".
+[Tue Mar 10 16:36:59 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:36:59 2015] [debug] 200 OK (0.003276s, 305.250/s).
+[Tue Mar 10 16:37:17 2015] [debug] POST "/".
+[Tue Mar 10 16:37:17 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:37:17 2015] [debug] 200 OK (0.000641s, 1560.062/s).
+[Tue Mar 10 16:37:22 2015] [debug] POST "/".
+[Tue Mar 10 16:37:22 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:37:22 2015] [debug] 200 OK (0.000654s, 1529.052/s).
+[Tue Mar 10 16:37:52 2015] [debug] POST "/".
+[Tue Mar 10 16:37:52 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:37:52 2015] [error] Can't call method "to_string" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 15.
+
+[Tue Mar 10 16:37:52 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:37:52 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:37:52 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:37:52 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:37:52 2015] [debug] 500 Internal Server Error (0.050663s, 19.738/s).
+[Tue Mar 10 16:38:09 2015] [debug] POST "/".
+[Tue Mar 10 16:38:09 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:38:09 2015] [debug] 200 OK (0.006586s, 151.837/s).
+[Tue Mar 10 16:39:15 2015] [debug] POST "/".
+[Tue Mar 10 16:39:15 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:39:15 2015] [debug] 200 OK (0.002488s, 401.929/s).
+[Tue Mar 10 16:39:43 2015] [debug] POST "/".
+[Tue Mar 10 16:39:43 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:39:43 2015] [debug] 200 OK (0.001638s, 610.501/s).
+[Tue Mar 10 16:39:50 2015] [debug] GET "/".
+[Tue Mar 10 16:39:50 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Tue Mar 10 16:39:50 2015] [debug] Rendering template "index.html.ep".
+[Tue Mar 10 16:39:50 2015] [debug] 200 OK (0.018185s, 54.990/s).
+[Tue Mar 10 16:39:50 2015] [debug] GET "/img/checks/mat_off.png".
+[Tue Mar 10 16:39:50 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 16:39:50 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 16:39:50 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:39:50 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:39:50 2015] [debug] 404 Not Found (0.041812s, 23.917/s).
+[Tue Mar 10 16:40:05 2015] [debug] POST "/".
+[Tue Mar 10 16:40:05 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:40:05 2015] [debug] 200 OK (0.032923s, 30.374/s).
+[Tue Mar 10 16:40:51 2015] [debug] POST "/".
+[Tue Mar 10 16:40:51 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:40:51 2015] [debug] 200 OK (0.001717s, 582.411/s).
+[Tue Mar 10 16:40:56 2015] [debug] POST "/".
+[Tue Mar 10 16:40:56 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:40:56 2015] [error] Can't call method "name" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 17.
+
+[Tue Mar 10 16:40:56 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:40:56 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:40:56 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:40:56 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:40:56 2015] [debug] 500 Internal Server Error (0.056118s, 17.820/s).
+[Tue Mar 10 16:43:56 2015] [debug] POST "/".
+[Tue Mar 10 16:43:56 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:43:56 2015] [error] Can't call method "name" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 17.
+
+[Tue Mar 10 16:43:56 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:43:56 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:43:56 2015] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:43:56 2015] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:43:56 2015] [debug] 500 Internal Server Error (0.015898s, 62.901/s).
+[Tue Mar 10 16:44:03 2015] [debug] POST "/".
+[Tue Mar 10 16:44:03 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:44:03 2015] [debug] 200 OK (0.015243s, 65.604/s).
+[Tue Mar 10 16:46:07 2015] [debug] POST "/".
+[Tue Mar 10 16:46:07 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:46:08 2015] [debug] 200 OK (0.265634s, 3.765/s).
+[Tue Mar 10 16:46:16 2015] [debug] POST "/".
+[Tue Mar 10 16:46:16 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:46:16 2015] [debug] 200 OK (0.080645s, 12.400/s).
+[Tue Mar 10 16:46:25 2015] [debug] POST "/".
+[Tue Mar 10 16:46:25 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:46:25 2015] [debug] 200 OK (0.078490s, 12.740/s).
+[Tue Mar 10 16:46:39 2015] [info] Listening at "http://*:3000".
+[Tue Mar 10 16:46:41 2015] [debug] POST "/".
+[Tue Mar 10 16:46:41 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:46:41 2015] [debug] 200 OK (0.038377s, 26.057/s).
+[Tue Mar 10 16:47:47 2015] [debug] POST "/".
+[Tue Mar 10 16:47:47 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:47:47 2015] [error] Can't locate object method "cookie" via package "Mojo::Content::Single" at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 17.
+
+[Tue Mar 10 16:47:47 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:47:47 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:47:47 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:47:47 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:47:47 2015] [debug] 500 Internal Server Error (0.055605s, 17.984/s).
+[Tue Mar 10 16:48:07 2015] [debug] POST "/".
+[Tue Mar 10 16:48:07 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:48:07 2015] [error] Can't locate object method "cookie" via package "Mojo::Content::Single" at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 17.
+
+[Tue Mar 10 16:48:07 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:48:07 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:48:07 2015] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:48:07 2015] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:48:07 2015] [debug] 500 Internal Server Error (0.014435s, 69.276/s).
+[Tue Mar 10 16:48:10 2015] [debug] POST "/".
+[Tue Mar 10 16:48:10 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:48:10 2015] [debug] 200 OK (0.005154s, 194.024/s).
+[Tue Mar 10 16:48:39 2015] [debug] POST "/".
+[Tue Mar 10 16:48:39 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:48:39 2015] [debug] 200 OK (0.005430s, 184.162/s).
+[Tue Mar 10 16:49:04 2015] [debug] POST "/".
+[Tue Mar 10 16:49:04 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:49:04 2015] [debug] 200 OK (0.004566s, 219.010/s).
+[Tue Mar 10 16:49:10 2015] [debug] POST "/".
+[Tue Mar 10 16:49:10 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:49:10 2015] [debug] 200 OK (0.004235s, 236.128/s).
+[Tue Mar 10 16:51:06 2015] [debug] POST "/".
+[Tue Mar 10 16:51:06 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:51:06 2015] [error] Can't call method "printer" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 18.
+
+[Tue Mar 10 16:51:06 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:51:06 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:51:06 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:51:06 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:51:06 2015] [debug] 500 Internal Server Error (0.047854s, 20.897/s).
+[Tue Mar 10 16:51:12 2015] [debug] POST "/".
+[Tue Mar 10 16:51:12 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:51:12 2015] [error] Can't call method "printer" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 18.
+
+[Tue Mar 10 16:51:12 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:51:12 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:51:12 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:51:12 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:51:12 2015] [debug] 500 Internal Server Error (0.048858s, 20.467/s).
+[Tue Mar 10 16:51:46 2015] [debug] POST "/".
+[Tue Mar 10 16:51:46 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:51:46 2015] [error] Can't call method "printer" on unblessed reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 18.
+
+[Tue Mar 10 16:51:46 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:51:46 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:51:46 2015] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:51:46 2015] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:51:46 2015] [debug] 500 Internal Server Error (0.015465s, 64.662/s).
+[Tue Mar 10 16:51:50 2015] [debug] POST "/".
+[Tue Mar 10 16:51:50 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller".
+[Tue Mar 10 16:51:50 2015] [error] Not a HASH reference at D:/Dropbox/GIT/RollsRoller/rolls_roller/script/../lib/RollsRoller/Controller/Index.pm line 18.
+
+[Tue Mar 10 16:51:50 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 16:51:50 2015] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:51:50 2015] [debug] 500 Internal Server Error (0.058243s, 17.169/s).
