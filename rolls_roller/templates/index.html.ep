@@ -21,7 +21,7 @@
   <div class="row">
 <div class="col-md-3">
 <table class="table">
-  <tr><td><a id="entry" href="/img/rolls-roller/entry_big.png"><img src="/img/rolls-roller/entry_sm.png" alt=""/></a></td></tr>
+  <tr><td><a id="entry" href="/img/rolls-roller/entry_big.png"><img src="/img/rolls-roller/entry_sm.png" alt="" width="250px;"/></a></td></tr>
   <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
   <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
@@ -33,9 +33,10 @@
   <tr style="text-align: center"><td colspan="2"><button type="button" class="btn btn-primary printer" value="entry"  data-toggle="modal" data-target="#myModal">Выбрать</button></td></tr>
 </table>
 </div>
+
 <div class="col-md-3">
 <table class="table">
-  <tr><td><a id="entry" href="/img/rolls-roller/regular_big.png"><img src="/img/rolls-roller/regular_sm.png" alt=""/></a></td></tr>
+  <tr><td><a id="entry" href="/img/rolls-roller/regular_big.png"><img src="/img/rolls-roller/regular_sm.png" alt="" width="250px;"/></a></td></tr>
   <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
   <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light2" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
   <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
@@ -50,7 +51,7 @@
 
 <div class="col-md-3">
 <table class="table">
-  <tr><td><a id="entry" href="/img/rolls-roller/premium_big.png"><img src="/img/rolls-roller/premium_sm.png" alt=""/></a></td></tr>
+  <tr><td><a id="entry" href="/img/rolls-roller/premium_big.png"><img src="/img/rolls-roller/premium_sm.png" alt="" width="250px;"/></a></td></tr>
   <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
   <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
   <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_on.png" id="roll3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
@@ -65,7 +66,7 @@
 
 <div class="col-md-3">
 <table class="table">
-  <tr><td><a id="entry" href="/img/rolls-roller/traffic_big.png"><img src="/img/rolls-roller/traffic_sm.png" alt=""/></a></td></tr>
+  <tr><td><a id="entry" href="/img/rolls-roller/traffic_big.png"><img src="/img/rolls-roller/traffic_sm.png" alt="" width="250px;"/></a></td></tr>
   <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_off.png" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>

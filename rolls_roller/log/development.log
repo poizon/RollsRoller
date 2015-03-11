@@ -556,3 +556,208 @@
 [Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
 [Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
 [Tue Mar 10 16:51:50 2015] [debug] 500 Internal Server Error (0.058243s, 17.169/s).
+[Wed Mar 11 10:36:53 2015] [debug] GET "/"
+[Wed Mar 11 10:36:53 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:36:53 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:36:53 2015] [debug] 200 OK (0.084341s, 11.857/s)
+[Wed Mar 11 10:36:55 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:36:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:36:55 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:36:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:36:55 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:36:55 2015] [debug] 404 Not Found (0.435371s, 2.297/s)
+[Wed Mar 11 10:39:51 2015] [debug] GET "/"
+[Wed Mar 11 10:39:51 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:39:51 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:39:51 2015] [debug] 200 OK (0.062212s, 16.074/s)
+[Wed Mar 11 10:39:52 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:39:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:39:52 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:39:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:39:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:39:52 2015] [debug] 404 Not Found (0.184436s, 5.422/s)
+[Wed Mar 11 10:39:54 2015] [debug] GET "/"
+[Wed Mar 11 10:39:54 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:39:54 2015] [debug] Rendering cached template "index.html.ep"
+[Wed Mar 11 10:39:54 2015] [debug] 200 OK (0.002310s, 432.900/s)
+[Wed Mar 11 10:39:55 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:39:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:39:55 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:39:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:39:55 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:39:55 2015] [debug] 404 Not Found (0.139611s, 7.163/s)
+[Wed Mar 11 10:40:23 2015] [debug] GET "/"
+[Wed Mar 11 10:40:23 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:40:23 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:40:23 2015] [debug] 200 OK (0.067439s, 14.828/s)
+[Wed Mar 11 10:40:23 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:40:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:40:23 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:40:23 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:40:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:40:24 2015] [debug] 404 Not Found (0.183366s, 5.454/s)
+[Wed Mar 11 10:40:43 2015] [debug] GET "/"
+[Wed Mar 11 10:40:43 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:40:43 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:40:43 2015] [debug] 200 OK (0.068147s, 14.674/s)
+[Wed Mar 11 10:40:44 2015] [debug] GET "/"
+[Wed Mar 11 10:40:44 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:40:44 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:40:44 2015] [debug] 200 OK (0.074315s, 13.456/s)
+[Wed Mar 11 10:40:44 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:40:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:40:44 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:40:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:40:45 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:40:45 2015] [debug] 404 Not Found (0.172305s, 5.804/s)
+[Wed Mar 11 10:41:23 2015] [debug] GET "/"
+[Wed Mar 11 10:41:23 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:41:23 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:41:23 2015] [debug] 200 OK (0.055877s, 17.896/s)
+[Wed Mar 11 10:41:24 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:41:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:41:24 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:41:24 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:41:24 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:41:24 2015] [debug] 404 Not Found (0.240902s, 4.151/s)
+[Wed Mar 11 10:42:01 2015] [debug] GET "/"
+[Wed Mar 11 10:42:01 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:42:01 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:42:01 2015] [debug] 200 OK (0.052375s, 19.093/s)
+[Wed Mar 11 10:42:01 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:42:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:42:01 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:42:01 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:42:01 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:42:01 2015] [debug] 404 Not Found (0.146406s, 6.830/s)
+[Wed Mar 11 10:42:57 2015] [debug] GET "/"
+[Wed Mar 11 10:42:57 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:42:57 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:42:57 2015] [debug] 200 OK (0.117518s, 8.509/s)
+[Wed Mar 11 10:42:58 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:42:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:42:58 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:42:58 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:42:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:42:58 2015] [debug] 404 Not Found (0.178729s, 5.595/s)
+[Wed Mar 11 10:43:00 2015] [debug] GET "/"
+[Wed Mar 11 10:43:00 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:00 2015] [debug] Rendering cached template "index.html.ep"
+[Wed Mar 11 10:43:00 2015] [debug] 200 OK (0.002269s, 440.723/s)
+[Wed Mar 11 10:43:01 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:43:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:43:01 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:43:01 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:43:01 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:43:01 2015] [debug] 404 Not Found (0.269226s, 3.714/s)
+[Wed Mar 11 10:43:03 2015] [debug] GET "/"
+[Wed Mar 11 10:43:03 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:03 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:43:03 2015] [debug] 200 OK (0.041602s, 24.037/s)
+[Wed Mar 11 10:43:03 2015] [debug] GET "/"
+[Wed Mar 11 10:43:03 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:03 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:43:03 2015] [debug] 200 OK (0.082044s, 12.189/s)
+[Wed Mar 11 10:43:04 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:43:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:43:04 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:43:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:43:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:43:04 2015] [debug] 404 Not Found (0.134971s, 7.409/s)
+[Wed Mar 11 10:43:06 2015] [debug] GET "/"
+[Wed Mar 11 10:43:06 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:06 2015] [debug] Rendering cached template "index.html.ep"
+[Wed Mar 11 10:43:06 2015] [debug] 200 OK (0.002422s, 412.882/s)
+[Wed Mar 11 10:43:07 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:43:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:43:07 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:43:07 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:43:07 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:43:07 2015] [debug] 404 Not Found (0.144053s, 6.942/s)
+[Wed Mar 11 10:43:16 2015] [debug] GET "/"
+[Wed Mar 11 10:43:16 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:16 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:43:16 2015] [debug] 200 OK (0.047054s, 21.252/s)
+[Wed Mar 11 10:43:17 2015] [debug] GET "/"
+[Wed Mar 11 10:43:17 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:43:17 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:43:17 2015] [debug] 200 OK (0.075187s, 13.300/s)
+[Wed Mar 11 10:43:18 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:43:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:43:18 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:43:18 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:43:18 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:43:18 2015] [debug] 404 Not Found (0.149914s, 6.670/s)
+[Wed Mar 11 10:44:10 2015] [debug] GET "/"
+[Wed Mar 11 10:44:10 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:44:10 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:44:10 2015] [debug] 200 OK (0.076178s, 13.127/s)
+[Wed Mar 11 10:44:10 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:44:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:44:10 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:44:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:44:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:44:10 2015] [debug] 404 Not Found (0.234817s, 4.259/s)
+[Wed Mar 11 10:44:27 2015] [debug] GET "/"
+[Wed Mar 11 10:44:27 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:44:27 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:44:27 2015] [debug] 200 OK (0.092882s, 10.766/s)
+[Wed Mar 11 10:44:28 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:44:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:44:28 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:44:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:44:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:44:28 2015] [debug] 404 Not Found (0.224768s, 4.449/s)
+[Wed Mar 11 10:46:27 2015] [debug] GET "/"
+[Wed Mar 11 10:46:27 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:46:27 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:46:27 2015] [debug] 200 OK (0.095951s, 10.422/s)
+[Wed Mar 11 10:46:29 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:46:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:46:29 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:46:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:46:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:46:29 2015] [debug] 404 Not Found (0.168262s, 5.943/s)
+[Wed Mar 11 10:46:31 2015] [debug] GET "/"
+[Wed Mar 11 10:46:31 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:46:31 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:46:31 2015] [debug] 200 OK (0.053788s, 18.592/s)
+[Wed Mar 11 10:46:32 2015] [debug] GET "/"
+[Wed Mar 11 10:46:32 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 10:46:32 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 10:46:32 2015] [debug] 200 OK (0.066507s, 15.036/s)
+[Wed Mar 11 10:46:32 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 10:46:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 10:46:32 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 10:46:32 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 10:46:32 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 10:46:32 2015] [debug] 404 Not Found (0.138198s, 7.236/s)
+[Wed Mar 11 10:49:36 2015] [debug] POST "/"
+[Wed Mar 11 10:49:36 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 10:49:36 2015] [debug] 200 OK (0.014197s, 70.437/s)
+[Wed Mar 11 10:50:07 2015] [debug] POST "/"
+[Wed Mar 11 10:50:07 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 10:50:07 2015] [debug] 200 OK (0.007454s, 134.156/s)
+[Wed Mar 11 11:04:03 2015] [debug] POST "/"
+[Wed Mar 11 11:04:03 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 11:04:03 2015] [error] Undefined subroutine &RollsRoller::Controller::Index::_cooke_data_extract called at C:/strawberry/perl/site/lib/Mojolicious.pm line 120
+
+[Wed Mar 11 11:04:03 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 11 11:04:03 2015] [debug] Template "exception.html.ep" not found
+[Wed Mar 11 11:04:03 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 11:04:03 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 11:04:03 2015] [debug] 500 Internal Server Error (0.179125s, 5.583/s)
+[Wed Mar 11 11:04:26 2015] [debug] POST "/"
+[Wed Mar 11 11:04:26 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 11:37:36 2015] [debug] GET "/"
+[Wed Mar 11 11:37:36 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 11:37:36 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 11:37:36 2015] [debug] 200 OK (0.053217s, 18.791/s)
+[Wed Mar 11 11:37:38 2015] [debug] GET "/img/checks/mat_off.png"
+[Wed Mar 11 11:37:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Mar 11 11:37:38 2015] [debug] Template "not_found.html.ep" not found
+[Wed Mar 11 11:37:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Mar 11 11:37:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Mar 11 11:37:38 2015] [debug] 404 Not Found (0.251883s, 3.970/s)
+[Wed Mar 11 11:37:50 2015] [debug] POST "/"
+[Wed Mar 11 11:37:50 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"

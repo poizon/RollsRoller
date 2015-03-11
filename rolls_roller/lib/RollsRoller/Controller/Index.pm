@@ -12,11 +12,10 @@ sub welcome {
 # обрабатываем форму с заказом
 sub diller {
   my $self = shift;
-  #my $c = ;
-  #my $cookie = Mojo::Cookie::Request->parse($c);
   #print Dumper $self->req->content->headers->cookie;
   # извлечем в хэш данные и обработаем их
-  my $printer = _cooke_data_extract($self->req->content->headers->cookie);  
+  my $printer = _cookie_data_extract($self->cookie('printer'),$self->req->content->headers->cookie);
+  print Dumper($printer);
   $self->render(text => 'Good: ' . $self->param('email'));
 }
 
@@ -24,10 +23,25 @@ sub diller {
 ## SUBS ##
 sub _cookie_data_extract {
   #'sign1=on; light1=on; roll1=on; height1=on; roll2=on; height2=on; sign2=on; printer=regular'
-  my $c = shift;
-  my %data;
-  #$data{$c->printer} = 
-  1;
+  my ($printer,$c) = @_;
+  my (%data,@array_on);
+  chomp($c);
+  $c =~ s/\s+//g;
+  my @line = (split /;/,$c);
+  foreach my $var(@line) {
+    next if $var =~ /off$/i;
+    say $var;
+    my ($name,$value) = split(/=/,$var,2);
+    # если это не имя принтера и опция включена - добавляем в массив имя куки
+    if ($name ne 'printer' and $value eq 'on') {
+      push(@array_on,$name);
+    }
+    
+    
+  }
+  
+  $data{$printer} = @array_on;
+  return \%data;
 }
 
 
