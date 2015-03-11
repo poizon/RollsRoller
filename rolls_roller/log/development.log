@@ -152,3 +152,94 @@
 [Wed Mar 11 15:32:25 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
 [Wed Mar 11 15:32:38 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
 [Wed Mar 11 15:32:49 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:35:25 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:35:30 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:35:30 2015] [debug] POST "/"
+[Wed Mar 11 15:35:30 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:35:30 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:35:30 2015] [debug] 200 OK (0.030442s, 32.849/s)
+[Wed Mar 11 15:35:33 2015] [debug] POST "/"
+[Wed Mar 11 15:35:33 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:35:33 2015] [debug] Rendering cached template "finish.html.ep"
+[Wed Mar 11 15:35:33 2015] [debug] 200 OK (0.003342s, 299.222/s)
+[Wed Mar 11 15:35:34 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:35:34 2015] [debug] POST "/"
+[Wed Mar 11 15:35:34 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:35:34 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:35:34 2015] [debug] 200 OK (0.046924s, 21.311/s)
+[Wed Mar 11 15:35:54 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:36:03 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:36:03 2015] [debug] POST "/"
+[Wed Mar 11 15:36:03 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:36:03 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:36:03 2015] [debug] 200 OK (0.043669s, 22.900/s)
+[Wed Mar 11 15:36:45 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:36:48 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:36:48 2015] [debug] POST "/"
+[Wed Mar 11 15:36:48 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:36:48 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:36:48 2015] [debug] 200 OK (0.035907s, 27.850/s)
+[Wed Mar 11 15:37:13 2015] [debug] POST "/"
+[Wed Mar 11 15:37:13 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:37:13 2015] [debug] Rendering cached template "finish.html.ep"
+[Wed Mar 11 15:37:13 2015] [debug] 200 OK (0.003093s, 323.311/s)
+[Wed Mar 11 15:37:14 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:37:14 2015] [debug] POST "/"
+[Wed Mar 11 15:37:14 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:37:14 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:37:14 2015] [debug] 200 OK (0.041019s, 24.379/s)
+[Wed Mar 11 15:37:23 2015] [debug] GET "/"
+[Wed Mar 11 15:37:23 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:37:23 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:37:23 2015] [debug] 200 OK (0.038399s, 26.042/s)
+[Wed Mar 11 15:37:24 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:37:24 2015] [debug] GET "/"
+[Wed Mar 11 15:37:24 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:37:24 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:37:24 2015] [debug] 200 OK (0.062615s, 15.971/s)
+[Wed Mar 11 15:37:37 2015] [debug] POST "/"
+[Wed Mar 11 15:37:37 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:37:37 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:37:37 2015] [debug] 200 OK (0.011363s, 88.005/s)
+[Wed Mar 11 15:37:38 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:37:38 2015] [debug] POST "/"
+[Wed Mar 11 15:37:38 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:37:38 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:37:38 2015] [debug] 200 OK (0.039514s, 25.307/s)
+[Wed Mar 11 15:37:50 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:37:53 2015] [debug] GET "/"
+[Wed Mar 11 15:37:53 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:37:53 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:37:54 2015] [debug] 200 OK (0.050781s, 19.692/s)
+[Wed Mar 11 15:37:54 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:07 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:19 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:24 2015] [debug] POST "/"
+[Wed Mar 11 15:38:24 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:38:24 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:38:24 2015] [debug] 200 OK (0.029001s, 34.482/s)
+[Wed Mar 11 15:38:25 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:26 2015] [debug] GET "/"
+[Wed Mar 11 15:38:26 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:38:26 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:38:26 2015] [debug] 200 OK (0.052351s, 19.102/s)
+[Wed Mar 11 15:38:27 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:27 2015] [debug] GET "/"
+[Wed Mar 11 15:38:27 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:38:27 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:38:27 2015] [debug] 200 OK (0.076850s, 13.012/s)
+[Wed Mar 11 15:38:40 2015] [debug] POST "/"
+[Wed Mar 11 15:38:40 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:38:40 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:38:40 2015] [debug] 200 OK (0.010933s, 91.466/s)
+[Wed Mar 11 15:38:41 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:41 2015] [debug] POST "/"
+[Wed Mar 11 15:38:41 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "diller"
+[Wed Mar 11 15:38:41 2015] [debug] Rendering template "finish.html.ep"
+[Wed Mar 11 15:38:41 2015] [debug] 200 OK (0.028140s, 35.537/s)
+[Wed Mar 11 15:38:53 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:58 2015] [debug] Reading configuration file "D:\GIT\RollsRoller\rolls_roller\script\app.conf"
+[Wed Mar 11 15:38:58 2015] [debug] GET "/"
+[Wed Mar 11 15:38:58 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome"
+[Wed Mar 11 15:38:58 2015] [debug] Rendering template "index.html.ep"
+[Wed Mar 11 15:38:58 2015] [debug] 200 OK (0.076568s, 13.060/s)
