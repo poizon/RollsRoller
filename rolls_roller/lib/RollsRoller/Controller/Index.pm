@@ -16,8 +16,14 @@ sub diller {
   my $def_roller =  $self->config->{rollers}->{$self->cookie('printer')};
   # извлечем в хэш данные и обработаем их
   my $printer = _cookie_data_extract($def_roller,$self->req->content->headers->cookie);
-  print Dumper($printer);
-  $self->render(text => 'Good: ');
+  my $client = $self->param('client');
+  my $email = $self->param('email');
+  my $mobile = $self->param('tel');
+  # insert into database HERE
+  #print Dumper($printer);
+  $self->stash(name   => $client,
+               printer => $self->cookie('printer'));
+  $self->render('finish');
 }
 
 ## SUBS ##

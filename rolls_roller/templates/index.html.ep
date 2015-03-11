@@ -173,9 +173,6 @@ jq14("a#entry").fancybox({
 <script src="/js/bootstrapValidator.min.js"></script>
 <script>
     var $ = jQuery.noConflict();
-</script>
-
-<script>
      $(document).ready(function() {
         $('#attributeForm').bootstrapValidator();
     });
