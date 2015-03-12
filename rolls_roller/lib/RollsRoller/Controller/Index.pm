@@ -12,22 +12,34 @@ sub welcome {
 # обрабатываем форму с заказом
 sub diller {
   my $self = shift;
-  #my $c = ;
-  #my $cookie = Mojo::Cookie::Request->parse($c);
-  #print Dumper $self->req->content->headers->cookie;
+  # получаем настройки конкретной модели через конфиг
+  my $def_roller =  $self->config->{rollers}->{$self->cookie('printer')};
   # извлечем в хэш данные и обработаем их
-  my $printer = _cooke_data_extract($self->req->content->headers->cookie);  
-  $self->render(text => 'Good: ' . $self->param('email'));
+  my $printer = _cookie_data_extract($def_roller,$self->req->content->headers->cookie);
+  my $client = $self->param('client');
+  my $email = $self->param('email');
+  my $mobile = $self->param('tel');
+  # insert into database HERE
+  #print Dumper($printer);
+  $self->stash(name   => $client,
+               printer => $self->cookie('printer'));
+  $self->render('finish');
 }
-
 
 ## SUBS ##
 sub _cookie_data_extract {
-  #'sign1=on; light1=on; roll1=on; height1=on; roll2=on; height2=on; sign2=on; printer=regular'
-  my $c = shift;
-  my %data;
-  #$data{$c->printer} = 
-  1;
+  my ($def_printer,$c) = @_;
+  chomp($c);
+  $c =~ s/\s+//g;
+  my @line = (split /;/,$c);
+  foreach my $var(@line) {
+    next if $var =~ /off$/i; #если выключена - пропускаем
+    my ($name,$value) = split(/=/,$var,2);
+    if (exists $def_printer->{$name}) {# отбираем только те значения что есть в хэше
+        $def_printer->{$name} = $value;
+    }
+  }
+  return $def_printer;# возвращаем конфиг принтера сделанного клиентом
 }
 
 
