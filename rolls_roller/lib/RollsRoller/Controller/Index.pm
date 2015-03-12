@@ -1,6 +1,6 @@
 package RollsRoller::Controller::Index;
 use Mojo::Base 'Mojolicious::Controller';
-
+use DBI;
 use Data::Dumper;
 
 # This action will render a template
@@ -13,14 +13,27 @@ sub welcome {
 sub diller {
   my $self = shift;
   # получаем настройки конкретной модели через конфиг
-  my $def_roller =  $self->config->{rollers}->{$self->cookie('printer')};
+  my $model = $self->cookie('printer');
+  $model =~ s/[^a-z]+//g;
+  my $def_roller =  $self->config->{rollers}->{$model};
   # извлечем в хэш данные и обработаем их
   my $printer = _cookie_data_extract($def_roller,$self->req->content->headers->cookie);
-  my $client = $self->param('client');
-  my $email = $self->param('email');
-  my $mobile = $self->param('tel');
+  my $client = $self->param('client') || 'none';
+  my $email = $self->param('email') || 0;
+  my $mobile = $self->param('tel') || 0;
+  $mobile =~ s/[^0-9]+//g;
+  # собираем опции для записи в базу (уже проверенные в функции _cookie_data_extract)
+  my $options='';
+  foreach my $option(keys %$printer) {
+    $options .= $option  . '=' . $printer->{$option} . ';';
+  }
   # insert into database HERE
-  #print Dumper($printer);
+  my $dbh = DBI->connect($self->config->{db}{dsn},$self->config->{db}{user},$self->config->{db}{pass},$self->config->{db}{connect_options}) || die "Cannot connect to database!";
+  
+  eval {
+        $dbh->do(qq{insert into rollorders (client,tel,email,options,model,status) values('$client','$email','$mobile','$options','$model',0)});
+  };
+  print Dumper($printer);
   $self->stash(name   => $client,
                printer => $self->cookie('printer'));
   $self->render('finish');
