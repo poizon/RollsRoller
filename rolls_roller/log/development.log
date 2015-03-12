@@ -556,3 +556,19 @@
 [Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
 [Tue Mar 10 16:51:50 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
 [Tue Mar 10 16:51:50 2015] [debug] 500 Internal Server Error (0.058243s, 17.169/s).
+[Tue Mar 10 16:54:42 2015] [debug] GET "/".
+[Tue Mar 10 16:54:42 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Tue Mar 10 16:54:42 2015] [debug] Rendering template "index.html.ep".
+[Tue Mar 10 16:54:42 2015] [debug] 200 OK (0.020514s, 48.747/s).
+[Tue Mar 10 16:54:42 2015] [debug] GET "/img/checks/mat_off.png".
+[Tue Mar 10 16:54:42 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 16:54:42 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 16:54:42 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:54:42 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:54:42 2015] [debug] 404 Not Found (0.040145s, 24.910/s).
+[Tue Mar 10 16:55:10 2015] [debug] GET "/img/checks/mat_off.png".
+[Tue Mar 10 16:55:10 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 16:55:10 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 16:55:10 2015] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 16:55:10 2015] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 16:55:10 2015] [debug] 404 Not Found (0.011357s, 88.051/s).
