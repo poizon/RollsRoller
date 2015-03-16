@@ -8,9 +8,6 @@
     <!--   <script src="/bootstrap/js/html5shiv.min.js"></script>
       <script src="/bootstrap/js/respond.min.js"></script> -->
     <![endif]-->
-    <style type="text/css">
-        .printer  {}
-    </style>
 </head>
 
 <body>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rolls Roller Калькулятор совокупной стоимости</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <!--[if lt IE 9]>
+    <!--   <script src="/bootstrap/js/html5shiv.min.js"></script>
+      <script src="/bootstrap/js/respond.min.js"></script> -->
+    <![endif]-->
+    <style>
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+     p.center {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 50px;
+     }
+    </style>
+    
+</head>
+
+<body>
+     <div class="container">
+<h2><img src="/img/calc/rollsroller_logotype.png"></h2>
+<hr>
+<h2><strong>CALCULATE YOUR POSSIBLE PROFITS</strong></h2>
+  <div class="row  bg-primary">
+  <div class="col-md-6"><img class="center" src="/img/calc/calculator_icon_start.png"></div>
+  <div class="col-md-6"><p class="center">ROLLSROLLER IS A MONEY MAKER
+Want to see how much time and money you can save? While getting access to a technology that will revolutionize your entire work process?
+The ROLLSROLLER ROI Calculator easily calculates how much you earn on replacing your traditional approach to the unique ROLLSROLLER Flatbed Applicator method.
+How much foil and pre-mask do you use? How much time do you spend per application?
+What is the total labour cost? Fill in your values and discover how fast your return on investment will be. The question is. Can you afford not to?</p></div>
+</div>
+</body>
+</html>

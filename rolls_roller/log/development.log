@@ -874,3 +874,394 @@
 [Mon Mar 16 10:06:37 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
 [Mon Mar 16 10:06:39 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
 [Mon Mar 16 10:06:41 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:17:01 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:17:01 2015] [info] Listening at "http://*:3000".
+[Mon Mar 16 16:17:22 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:17:22 2015] [debug] Class "RollsRoller::Controller::Calculator" is not a controller.
+[Mon Mar 16 16:17:22 2015] [debug] Template "calculator/welcome.html.ep" not found.
+[Mon Mar 16 16:17:22 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 16 16:17:22 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 16 16:17:22 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar 16 16:17:22 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar 16 16:17:22 2015] [debug] 404 Not Found (0.087912s, 11.375/s).
+[Mon Mar 16 16:17:24 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:18:09 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:18:09 2015] [info] Listening at "http://*:3000".
+[Mon Mar 16 16:18:10 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:18:10 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:18:10 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:18:10 2015] [debug] 200 OK (0.033350s, 29.985/s).
+[Mon Mar 16 16:18:16 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:19:01 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:19:13 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:19:13 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:19:13 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:19:13 2015] [debug] 200 OK (0.012490s, 80.064/s).
+[Mon Mar 16 16:19:13 2015] [debug] GET "/media/1027/calculator_icon_start.png".
+[Mon Mar 16 16:19:13 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 16 16:19:13 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 16 16:19:13 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar 16 16:19:13 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar 16 16:19:13 2015] [debug] 404 Not Found (0.051275s, 19.503/s).
+[Mon Mar 16 16:19:14 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:19:14 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:19:14 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:19:14 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:19:14 2015] [debug] 200 OK (0.011330s, 88.261/s).
+[Mon Mar 16 16:19:14 2015] [debug] GET "/media/1027/calculator_icon_start.png".
+[Mon Mar 16 16:19:14 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 16 16:19:14 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 16 16:19:14 2015] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar 16 16:19:14 2015] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar 16 16:19:14 2015] [debug] 404 Not Found (0.059658s, 16.762/s).
+[Mon Mar 16 16:19:21 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:19:55 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:20:35 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:21:09 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:21:42 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:21:42 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:21:42 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:21:42 2015] [debug] 200 OK (0.011653s, 85.815/s).
+[Mon Mar 16 16:21:44 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:21:44 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:21:44 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:21:44 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:21:44 2015] [debug] 200 OK (0.009294s, 107.596/s).
+[Mon Mar 16 16:21:53 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:22:22 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:22:22 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:22:22 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:22:22 2015] [debug] 200 OK (0.010054s, 99.463/s).
+[Mon Mar 16 16:22:23 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:23:00 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:23:19 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:23:19 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:23:19 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:23:19 2015] [debug] 200 OK (0.011614s, 86.103/s).
+[Mon Mar 16 16:23:21 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:23:39 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:23:39 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:23:39 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:23:39 2015] [debug] 200 OK (0.015399s, 64.939/s).
+[Mon Mar 16 16:23:40 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:23:40 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:23:40 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:23:40 2015] [debug] 200 OK (0.001247s, 801.925/s).
+[Mon Mar 16 16:23:41 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:24:12 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:12 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:12 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:24:12 2015] [debug] 200 OK (0.011301s, 88.488/s).
+[Mon Mar 16 16:24:13 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:24:13 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:13 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:13 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:24:13 2015] [debug] 200 OK (0.008243s, 121.315/s).
+[Mon Mar 16 16:24:13 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:13 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:13 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:24:13 2015] [debug] 200 OK (0.000820s, 1219.512/s).
+[Mon Mar 16 16:24:17 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:17 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:17 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:24:17 2015] [debug] 200 OK (0.001229s, 813.670/s).
+[Mon Mar 16 16:24:19 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:24:19 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:19 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:19 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:24:19 2015] [debug] 200 OK (0.009654s, 103.584/s).
+[Mon Mar 16 16:24:19 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:19 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:19 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:24:19 2015] [debug] 200 OK (0.001218s, 821.018/s).
+[Mon Mar 16 16:24:21 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:24:42 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:42 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:42 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:24:42 2015] [debug] 200 OK (0.012492s, 80.051/s).
+[Mon Mar 16 16:24:46 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:24:58 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:24:58 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:24:58 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:24:58 2015] [debug] 200 OK (0.012002s, 83.319/s).
+[Mon Mar 16 16:25:03 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:25:11 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:25:11 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:25:11 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:25:11 2015] [debug] 200 OK (0.012227s, 81.786/s).
+[Mon Mar 16 16:25:12 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:25:12 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:25:12 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:25:12 2015] [debug] 200 OK (0.001666s, 600.240/s).
+[Mon Mar 16 16:25:14 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:25:21 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:25:21 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:25:21 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:25:21 2015] [debug] 200 OK (0.010525s, 95.012/s).
+[Mon Mar 16 16:25:27 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:25:36 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:25:36 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:25:36 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:25:36 2015] [debug] 200 OK (0.011211s, 89.198/s).
+[Mon Mar 16 16:25:51 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:26:26 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:26:26 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:26:26 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:26:26 2015] [debug] 200 OK (0.014229s, 70.279/s).
+[Mon Mar 16 16:26:26 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:26:26 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:26:26 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:26:26 2015] [debug] 200 OK (0.001532s, 652.742/s).
+[Mon Mar 16 16:26:27 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:26:49 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:26:49 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:26:49 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:26:49 2015] [debug] 200 OK (0.010745s, 93.067/s).
+[Mon Mar 16 16:26:51 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:26:51 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:26:51 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:26:51 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:26:51 2015] [debug] 200 OK (0.008909s, 112.246/s).
+[Mon Mar 16 16:26:53 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:27:47 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:27:47 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:27:47 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:27:47 2015] [debug] 200 OK (0.012658s, 79.001/s).
+[Mon Mar 16 16:27:49 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:30:12 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:31:07 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:31:07 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:31:07 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:31:07 2015] [debug] 200 OK (0.010926s, 91.525/s).
+[Mon Mar 16 16:31:08 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:31:34 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:31:34 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:31:34 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:31:34 2015] [debug] 200 OK (0.011403s, 87.696/s).
+[Mon Mar 16 16:31:36 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:31:36 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:31:36 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:31:36 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:31:36 2015] [debug] 200 OK (0.010611s, 94.242/s).
+[Mon Mar 16 16:32:03 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:03 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:03 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:32:03 2015] [debug] 200 OK (0.000900s, 1111.111/s).
+[Mon Mar 16 16:32:04 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:32:04 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:04 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:04 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:32:04 2015] [debug] 200 OK (0.008524s, 117.316/s).
+[Mon Mar 16 16:32:48 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:48 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:48 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:32:48 2015] [debug] 200 OK (0.001204s, 830.565/s).
+[Mon Mar 16 16:32:49 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:32:49 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:49 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:49 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:32:49 2015] [debug] 200 OK (0.012296s, 81.327/s).
+[Mon Mar 16 16:32:51 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:51 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:51 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:32:51 2015] [debug] 200 OK (0.001321s, 757.002/s).
+[Mon Mar 16 16:32:51 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:32:51 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:32:51 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:32:51 2015] [debug] 200 OK (0.001222s, 818.331/s).
+[Mon Mar 16 16:32:53 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:33:10 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:10 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:10 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:33:10 2015] [debug] 200 OK (0.009581s, 104.373/s).
+[Mon Mar 16 16:33:12 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:33:18 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:18 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:18 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:33:18 2015] [debug] 200 OK (0.017517s, 57.087/s).
+[Mon Mar 16 16:33:20 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:33:20 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:20 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:20 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:33:20 2015] [debug] 200 OK (0.021706s, 46.070/s).
+[Mon Mar 16 16:33:21 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:21 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:21 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:33:21 2015] [debug] 200 OK (0.000987s, 1013.171/s).
+[Mon Mar 16 16:33:21 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:21 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:21 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:33:21 2015] [debug] 200 OK (0.001241s, 805.802/s).
+[Mon Mar 16 16:33:23 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:33:39 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:39 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:39 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:33:39 2015] [debug] 200 OK (0.014416s, 69.367/s).
+[Mon Mar 16 16:33:40 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:33:47 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:33:47 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:33:47 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:33:47 2015] [debug] 200 OK (0.012526s, 79.834/s).
+[Mon Mar 16 16:33:49 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:34:58 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:01 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:01 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:01 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:01 2015] [debug] 200 OK (0.011985s, 83.438/s).
+[Mon Mar 16 16:36:03 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:03 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:03 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:03 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:03 2015] [debug] 200 OK (0.018672s, 53.556/s).
+[Mon Mar 16 16:36:03 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:03 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:03 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:03 2015] [debug] 200 OK (0.000879s, 1137.656/s).
+[Mon Mar 16 16:36:31 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:31 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:31 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:31 2015] [debug] 200 OK (0.000933s, 1071.811/s).
+[Mon Mar 16 16:36:32 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:33 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:33 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:33 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:33 2015] [debug] 200 OK (0.008193s, 122.055/s).
+[Mon Mar 16 16:36:35 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:35 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:35 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:35 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:35 2015] [debug] 200 OK (0.008233s, 121.462/s).
+[Mon Mar 16 16:36:40 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:40 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:40 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:40 2015] [debug] 200 OK (0.001663s, 601.323/s).
+[Mon Mar 16 16:36:42 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:42 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:42 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:42 2015] [debug] 200 OK (0.002079s, 481.000/s).
+[Mon Mar 16 16:36:43 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:45 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:45 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:45 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:45 2015] [debug] 200 OK (0.007826s, 127.779/s).
+[Mon Mar 16 16:36:46 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:46 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:46 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:46 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:46 2015] [debug] 200 OK (0.009296s, 107.573/s).
+[Mon Mar 16 16:36:56 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:56 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:56 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:56 2015] [debug] 200 OK (0.001885s, 530.504/s).
+[Mon Mar 16 16:36:57 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:36:57 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:57 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:57 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:36:57 2015] [debug] 200 OK (0.008350s, 119.760/s).
+[Mon Mar 16 16:36:58 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:58 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:58 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:58 2015] [debug] 200 OK (0.001235s, 809.717/s).
+[Mon Mar 16 16:36:59 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:36:59 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:36:59 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:36:59 2015] [debug] 200 OK (0.001253s, 798.085/s).
+[Mon Mar 16 16:37:00 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:37:00 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:37:00 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:37:00 2015] [debug] 200 OK (0.001261s, 793.021/s).
+[Mon Mar 16 16:37:01 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:37:01 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:37:01 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:37:01 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:37:01 2015] [debug] 200 OK (0.009038s, 110.644/s).
+[Mon Mar 16 16:38:18 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:38:20 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:38:20 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:38:20 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:38:20 2015] [debug] 200 OK (0.010743s, 93.084/s).
+[Mon Mar 16 16:38:22 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:38:22 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:38:22 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:38:22 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:38:22 2015] [debug] 200 OK (0.009346s, 106.998/s).
+[Mon Mar 16 16:39:07 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:39:45 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:39:45 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:39:45 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:39:45 2015] [debug] 200 OK (0.012187s, 82.055/s).
+[Mon Mar 16 16:39:46 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:39:46 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:39:46 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:39:46 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:39:46 2015] [debug] 200 OK (0.018320s, 54.585/s).
+[Mon Mar 16 16:39:47 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:39:47 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:39:47 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:39:47 2015] [debug] 200 OK (0.001268s, 788.644/s).
+[Mon Mar 16 16:39:52 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:40:42 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:40:42 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:40:42 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:40:42 2015] [debug] 200 OK (0.010444s, 95.749/s).
+[Mon Mar 16 16:40:43 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:40:46 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:40:46 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:40:46 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:40:46 2015] [debug] 200 OK (0.017471s, 57.238/s).
+[Mon Mar 16 16:40:48 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:41:09 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:41:09 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:41:09 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:41:09 2015] [debug] 200 OK (0.012278s, 81.446/s).
+[Mon Mar 16 16:41:11 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:41:11 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:41:11 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:41:11 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:41:11 2015] [debug] 200 OK (0.014623s, 68.385/s).
+[Mon Mar 16 16:42:47 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:42:47 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:42:47 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:42:47 2015] [debug] 200 OK (0.001894s, 527.983/s).
+[Mon Mar 16 16:42:48 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:42:48 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:42:48 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:42:48 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:42:48 2015] [debug] 200 OK (0.013996s, 71.449/s).
+[Mon Mar 16 16:42:49 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:42:49 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:42:49 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:42:49 2015] [debug] 200 OK (0.001269s, 788.022/s).
+[Mon Mar 16 16:42:52 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:42:56 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:42:56 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:42:56 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:42:56 2015] [debug] 200 OK (0.010573s, 94.581/s).
+[Mon Mar 16 16:42:58 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:43:01 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:01 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:01 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:43:01 2015] [debug] 200 OK (0.013580s, 73.638/s).
+[Mon Mar 16 16:43:02 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:43:02 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:02 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:02 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:43:02 2015] [debug] 200 OK (0.009150s, 109.290/s).
+[Mon Mar 16 16:43:09 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:09 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:09 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:43:09 2015] [debug] 200 OK (0.001281s, 780.640/s).
+[Mon Mar 16 16:43:10 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:10 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:10 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:43:10 2015] [debug] 200 OK (0.000848s, 1179.245/s).
+[Mon Mar 16 16:43:12 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 16:43:12 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:12 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:12 2015] [debug] Rendering template "calc/index.html.ep".
+[Mon Mar 16 16:43:12 2015] [debug] 200 OK (0.010226s, 97.790/s).
+[Mon Mar 16 16:43:13 2015] [debug] GET "/calculator/".
+[Mon Mar 16 16:43:13 2015] [debug] Routing to controller "RollsRoller::Controller::Calculator" and action "welcome".
+[Mon Mar 16 16:43:13 2015] [debug] Rendering cached template "calc/index.html.ep".
+[Mon Mar 16 16:43:13 2015] [debug] 200 OK (0.001705s, 586.510/s).
+[Mon Mar 16 16:43:21 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
