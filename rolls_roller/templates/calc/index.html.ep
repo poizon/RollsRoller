@@ -37,7 +37,11 @@
 Want to see how much time and money you can save? While getting access to a technology that will revolutionize your entire work process?
 The ROLLSROLLER ROI Calculator easily calculates how much you earn on replacing your traditional approach to the unique ROLLSROLLER Flatbed Applicator method.
 How much foil and pre-mask do you use? How much time do you spend per application?
-What is the total labour cost? Fill in your values and discover how fast your return on investment will be. The question is. Can you afford not to?</p></div>
+What is the total labour cost? Fill in your values and discover how fast your return on investment will be. The question is. Can you afford not to?</p>
+<form method="post" action="/calculator/">
+    <input class="btn btn-success pull-right" type="submit" value="Start here">
+</form>
+</div>
 </div>
 </body>
 </html>
