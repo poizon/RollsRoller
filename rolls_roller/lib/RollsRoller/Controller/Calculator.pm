@@ -9,5 +9,9 @@ sub welcome {
   $self->render('calc/index');
 }
 
+sub startcalc {
+  my $self = shift;
+  $self->render('calc/step1');
+}
 
 1;

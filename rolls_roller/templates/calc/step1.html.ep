@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rolls Roller Калькулятор совокупной стоимости</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <!--[if lt IE 9]>
+    <!--   <script src="/bootstrap/js/html5shiv.min.js"></script>
+      <script src="/bootstrap/js/respond.min.js"></script> -->
+    <![endif]-->
+    <style>
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+     p.center {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 50px;
+     }
+    </style>
+    
+</head>
+
+<body>
+     <div class="container">
+<h2><img src="/img/calc/rollsroller_logotype.png"></h2>
+<hr>
+<h2><strong>CALCULATE YOUR POSSIBLE PROFITS</strong></h2>
+  <div class="row  bg-primary">
+  <div class="col-md-6"><img class="center" src="/img/calc/calculator_icon_start.png"></div>
+  <div class="col-md-6"><p class="center"><form action="/umbraco/Surface/ContactSurface/SendMailCalculatorForm" class="form-horizontal" data-ajax="true" data-ajax-failure="ShowErrorROI" data-ajax-method="POST" data-ajax-mode="after" data-ajax-success="ShowSuccessROI" data-ajax-update="#contactForm" id="form0" method="post">        <div id="ctcForm">
+            <div class="cFrm">
+                <div id="contactForm" class="slideshow_form">
+                    <div class="contact_intro">
+                        <h3>ROLLSROLLER IS A MONEY MAKER</h3>
+                        <p class="contact_desc">Fill in your details to start calculate</p>
+                    </div>
+
+                    
+
+                    <div class="form-group">
+                        <label class="control-label" for="Name">Name:*</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-user"></span></span>
+                            <input class="form-control field" data-val="true" data-val-required="You have to type a name." id="Name" maxlength="100" name="Name" type="text" value="" />
+                        </div>
+                        <span class="field-validation-valid alert alert-danger name-validation" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Company">Company:*</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-company"></span></span>
+                            <input class="form-control field" data-val="true" data-val-required="You have to type your company." id="Company" maxlength="100" name="Company" type="text" value="" />
+                        </div>
+                        <span class="field-validation-valid alert alert-danger company-validation" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Email">E-mail:*</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-email"></span></span>
+                            <input class="form-control field" data-val="true" data-val-required="You have to type your email." id="Email" maxlength="100" name="Email" type="email" value="" />
+
+                        </div>
+                        <span class="field-validation-valid alert alert-danger email-validation" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Phone">Phone:</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-phone"></span></span>
+                            <input class="form-control field" id="Phone" maxlength="100" name="Phone" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Country">Country/State:*</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-country"></span></span>
+                            <input class="form-control field" data-val="true" data-val-required="You have to type your country." id="Country" maxlength="100" name="Country" type="text" value="" />
+                        </div>
+                        <span class="field-validation-valid alert alert-danger country-validation" data-valmsg-for="Country" data-valmsg-replace="true"></span>
+
+                    </div>
+
+                    <input type="text" class="hide" id="honeybear2" name="honeybear2" value="" maxlength="50" />
+
+                    <div class="form-group">
+                        <div class="button_send">
+                            <button type="button" name="submitBtn" class="slideshow_form_btn main-button main-button-2">Next</button>
+                            <p class="form_desc">* Mandatory</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</form>   </p>
+<a class="btn btn-success pull-right" href="#" role="button">Next</a>
+</div>
+</div>
+</body>
+</html>

@@ -15,6 +15,7 @@ sub startup {
   $r->post('/')->to('index#diller');
   
   $r->get('/calculator')->to('calculator#welcome');
+  $r->post('/calculator')->to('calculator#startcalc');
   
 }
 
