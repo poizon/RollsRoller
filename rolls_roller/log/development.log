@@ -779,3 +779,98 @@
 [Thu Mar 12 12:12:41 2015] [debug] Rendering template "index.html.ep".
 [Thu Mar 12 12:12:41 2015] [debug] 200 OK (0.014428s, 69.310/s).
 [Thu Mar 12 12:12:42 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:38:04 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:38:04 2015] [info] Listening at "http://*:3000".
+[Mon Mar 16 09:38:08 2015] [debug] GET "/".
+[Mon Mar 16 09:38:08 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:38:08 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:38:09 2015] [debug] 200 OK (0.060511s, 16.526/s).
+[Mon Mar 16 09:38:10 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:38:12 2015] [debug] GET "/".
+[Mon Mar 16 09:38:12 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:38:12 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:38:12 2015] [debug] 200 OK (0.055173s, 18.125/s).
+[Mon Mar 16 09:38:14 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:38:27 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:38:44 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:39:02 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:39:23 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:39:43 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:40:28 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:41:01 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:41:26 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:41:51 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:42:16 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:42:39 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:43:02 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:43:19 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:43:34 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:43:56 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:44:00 2015] [debug] GET "/".
+[Mon Mar 16 09:44:00 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:44:00 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:44:00 2015] [debug] 200 OK (0.058612s, 17.061/s).
+[Mon Mar 16 09:44:01 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:44:02 2015] [debug] GET "/".
+[Mon Mar 16 09:44:02 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:44:02 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:44:02 2015] [debug] 200 OK (0.066620s, 15.011/s).
+[Mon Mar 16 09:44:05 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:44:28 2015] [debug] GET "/".
+[Mon Mar 16 09:44:28 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:44:28 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:44:28 2015] [debug] 200 OK (0.056115s, 17.821/s).
+[Mon Mar 16 09:44:30 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:44:30 2015] [debug] GET "/".
+[Mon Mar 16 09:44:30 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:44:30 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:44:30 2015] [debug] 200 OK (0.061786s, 16.185/s).
+[Mon Mar 16 09:44:47 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:45:15 2015] [debug] GET "/".
+[Mon Mar 16 09:45:15 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:45:15 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:45:16 2015] [debug] 200 OK (0.060142s, 16.627/s).
+[Mon Mar 16 09:45:17 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:45:43 2015] [debug] GET "/".
+[Mon Mar 16 09:45:43 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:45:43 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:45:43 2015] [debug] 200 OK (0.054806s, 18.246/s).
+[Mon Mar 16 09:45:46 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:46:41 2015] [debug] GET "/".
+[Mon Mar 16 09:46:41 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:46:41 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:46:41 2015] [debug] 200 OK (0.058085s, 17.216/s).
+[Mon Mar 16 09:46:41 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:46:59 2015] [debug] GET "/".
+[Mon Mar 16 09:46:59 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:46:59 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:46:59 2015] [debug] 200 OK (0.056568s, 17.678/s).
+[Mon Mar 16 09:47:00 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:47:18 2015] [debug] GET "/".
+[Mon Mar 16 09:47:18 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 09:47:18 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 09:47:18 2015] [debug] 200 OK (0.057116s, 17.508/s).
+[Mon Mar 16 09:47:20 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:48:59 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:51:34 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:54:00 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:56:19 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 09:58:16 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:00:20 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:01:24 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:01:28 2015] [debug] GET "/".
+[Mon Mar 16 10:01:28 2015] [debug] Routing to controller "RollsRoller::Controller::Index" and action "welcome".
+[Mon Mar 16 10:01:28 2015] [debug] Rendering template "index.html.ep".
+[Mon Mar 16 10:01:28 2015] [debug] 200 OK (0.057139s, 17.501/s).
+[Mon Mar 16 10:01:30 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:03:45 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:04:37 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:05:33 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:05:45 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:04 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:30 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:32 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:34 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:37 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:39 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".
+[Mon Mar 16 10:06:41 2015] [debug] Reading configuration file "D:\Dropbox\GIT\RollsRoller\rolls_roller\script\app.conf".

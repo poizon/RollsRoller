@@ -13,6 +13,7 @@
     <![endif]-->
     <style type="text/css">
         .printer  {}
+  </style>
     </style>
 </head>
 
@@ -22,11 +23,11 @@
 <div class="col-md-3">
 <table class="table">
   <tr><td><a id="entry" href="/img/rolls-roller/entry_big.png"><img src="/img/rolls-roller/entry_sm.png" alt="" width="250px;"/></a></td></tr>
-  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat1" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign1" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat1" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light1" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap"  title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll1" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height1" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign1" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Максимальная ширина</td><td>1.4 м</td></tr>
   <tr><td>Максимальная длина</td><td>3.4 м</td></tr>
   <tr class="info"><td colspan="2">ЦЕНА ОТ: 9 350 &#8364;</td></tr>
@@ -37,11 +38,11 @@
 <div class="col-md-3">
 <table class="table">
   <tr><td><a id="entry" href="/img/rolls-roller/regular_big.png"><img src="/img/rolls-roller/regular_sm.png" alt="" width="250px;"/></a></td></tr>
-  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat2"  style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light2" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign2" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat2"  style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light2" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll2" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height2" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign2" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Максимальная ширина</td><td>1.7 м</td></tr>
   <tr><td>Максимальная длина</td><td>4 м</td></tr>
   <tr class="info"><td colspan="2">ЦЕНА ОТ: 11 900 &#8364;</td></tr>
@@ -52,11 +53,11 @@
 <div class="col-md-3">
 <table class="table">
   <tr><td><a id="entry" href="/img/rolls-roller/premium_big.png"><img src="/img/rolls-roller/premium_sm.png" alt="" width="250px;"/></a></td></tr>
-  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat3"  style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_on.png" id="roll3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_on.png" id="height3" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
-  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign3" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_on.png" id="mat3"  style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_on.png" id="light3" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_on.png" id="roll3" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_on.png" id="height3" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_off.png" id="sign3" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
   <tr><td>Максимальная ширина</td><td>2.2 м</td></tr>
   <tr><td>Максимальная длина</td><td>10.8 м</td></tr>
   <tr class="info"><td colspan="2">ЦЕНА ОТ: 17 600 &#8364;</td></tr>
@@ -67,11 +68,11 @@
 <div class="col-md-3">
 <table class="table">
   <tr><td><a id="entry" href="/img/rolls-roller/traffic_big.png"><img src="/img/rolls-roller/traffic_sm.png" alt="" width="250px;"/></a></td></tr>
-  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_off.png" id="mat4"  style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height4" style="width: 25px; height: 25px;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
-  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_on.png" id="sign4" style="width: 25px; height: 25px;" title="Это обязательная опция"></td></tr>
+  <tr><td>Самовыстанавливающийся мат</td><td><img src="/img/checks/mat_off.png" id="mat4"  style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Подсветка стола</td><td><img src="/img/checks/light_off.png" id="light4" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Держатель для рулонных материалов</td><td><img src="/img/checks/roll_off.png" id="roll4" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Регулировка стола по высоте</td><td><img src="/img/checks/height_off.png" id="height4" style="width: 25px; height: 25px; cursor: pointer;" class="img-swap" title="Нажмите на картинку для включения опции"></td></tr>
+  <tr><td>Профиль для дорожных знаков</td><td><img src="/img/checks/sign_on.png" id="sign4" style="width: 25px; height: 25px; cursor: pointer;" title="Это обязательная опция"></td></tr>
   <tr><td>Максимальная ширина</td><td>1.4 м</td></tr>
   <tr><td>Максимальная длина</td><td>6 м</td></tr>
   <tr class="info"><td colspan="2">ЦЕНА ОТ: 16 800 &#8364;</td></tr>
