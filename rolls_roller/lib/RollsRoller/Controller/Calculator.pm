@@ -11,7 +11,15 @@ sub welcome {
 
 sub startcalc {
   my $self = shift;
-  $self->render('calc/step1');
+  if ($self->param('name')) {
+  $self->render('calc/step2');
+  } elsif($self->param('rollsPerMonth')) {
+  $self->render('calc/step3');  
+  } else {
+  $self->render('calc/step1');  
+  }
+  
+  
 }
 
 1;

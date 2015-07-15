@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rolls Roller Калькулятор совокупной стоимости</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/bootstrap/js/html5shiv.min.js"></script>
+      <script src="/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+    <style>
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+     p.center {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 50px;
+     }
+     
+     p.step {
+        margin-left: auto;
+        margin-top: 10px;
+     }
+     
+     .left_marg {
+        margin-left: 50px;
+     }
+    </style>
+    
+</head>
+
+<body>
+<div class="container">
+<h2><img src="/img/calc/rollsroller_logotype.png"></h2>
+<hr>
+<h2><strong>ПОСЧИТАЙТЕ ВАШУ ВОЗМОЖНУЮ ПРИБЫЛЬ</strong></h2>
+  <div class="row  bg-primary"> <!-- div row -->
+  
+  <div class="col-md-6">
+ <p class="step">Шаг 1 из 5</p>
+                    <div>
+                        <h3>HOW MUCH PRE-MASKING TAPE AND DIGITAL PRINT VINYL DO YOU USE PER MONTH?</h3>
+                    </div>
+<form class="form-horizontal left_marg" method="post">
+   <div class="form-group form-group-lg">
+    <label>Rolls of premasking tape per month</label>
+    <div class="btn btn-default btn-xs tooltip-right" title="Type how many rolls of premasking tape (100meter/100yard) you use per month.">
+    <span class="glyphicon glyphicon-question-sign"></span>
+   </div>
+    <div class="col-sm-4">
+      <div class="input-group ">
+        <span class="input-group-addon" id="up1" ><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></span>
+    <input type="text" class="form-control input-lg" name="rollsPerMonth" id="rollsPerMonth"  value="4">
+        <span class="input-group-addon"  id="down1">
+                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></span>
+      </div>
+  </div>
+   </div>
+   
+  <div class="form-group form-group-lg">
+    <label class="control-label" for="exampleInputEmail1">Rolls of digital print film per month</label>
+        <div class="btn btn-default btn-xs tooltip-right" title="Type how many rolls of digital print film (50meter/50yard) you use per month.">
+    <span class="glyphicon glyphicon-question-sign"></span>
+   </div>
+    <div class="col-sm-4">
+      <div class="input-group ">
+        <span class="input-group-addon" id="up2" ><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></span>
+    <input type="text" class="form-control input-lg" name="digPerMonth" id="digPerMonth"  value="4">
+        <span class="input-group-addon" id="down2">
+                <span class="glyphicon glyphicon-chevron-down"  aria-hidden="true"></span></span>
+      </div>
+  </div>
+   </div>
+  <div><button class="btn btn-success pull-right" type="submit">Далее</button></div>
+</form>
+
+</div> <!-- div col-md-6 -->
+<div class="col-md-6"><img class="center" src="/img/calc/calculator_folie.jpg"></div>
+</div> <!-- div row -->
+     </div> <!-- div container -->
+    <script src="/bootstrap/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/tooltip-viewport.js"></script>
+
+<script>
+     $(document).ready(function() {
+       
+       $('#up1').click(function() {
+            var current = $('#rollsPerMonth').val();
+            $('#rollsPerMonth').val(current*1+1);
+        });
+       
+        $('#down1').click(function() {
+            var current = $('#rollsPerMonth').val();
+            $('#rollsPerMonth').val(current*1-1);
+        });
+       
+        $('#up2').click(function() {
+            var current = $('#digPerMonth').val();
+            $('#digPerMonth').val(current*1+1);
+        });
+       
+        $('#down2').click(function() {
+            var current = $('#digPerMonth').val();
+            $('#digPerMonth').val(current*1-1);
+        });
+       
+    });
+</script>
+</body>
+</html>

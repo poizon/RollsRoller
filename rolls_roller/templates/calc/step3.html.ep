@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rolls Roller Калькулятор совокупной стоимости</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/bootstrap/js/html5shiv.min.js"></script>
+      <script src="/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+    <style>
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+     p.center {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 50px;
+     }
+     
+     p.step {
+        margin-left: auto;
+        margin-top: 10px;
+     }
+     
+     .left_marg {
+        margin-left: 50px;
+     }
+    </style>
+    
+</head>
+
+<body>
+<div class="container">
+<h2><img src="/img/calc/rollsroller_logotype.png"></h2>
+<hr>
+<h2><strong>ПОСЧИТАЙТЕ ВАШУ ВОЗМОЖНУЮ ПРИБЫЛЬ</strong></h2>
+  <div class="row  bg-primary"> <!-- div row -->
+  
+  <div class="col-md-6">
+ <p class="step">Шаг 2 из 5</p>
+                    <div>
+                        <h3>HOW MUCH TIME DO YOU SPEND PER APPLICATION TODAY?</h3>
+                    </div>
+<form class="form-horizontal left_marg" method="post">
+ <div class="calculator_controls margin-fix">
+                                                <label for="ApplicationTape" data-container="body" data-toggle="popover" data-placement="top" data-content="How many minutes to apply 1.2 x 1 meter (4ft. x 3ft.) application tape?">Application tape</label>
+                                                <div id="rangeSlider1" class="rs1 rangeSlider applicationTape" data-spinner="#spinner1"></div>
+                                                <div class="numericSpinner spinner">
+                                                    <input type="tel" pattern="\d*" id="spinner1" class="input-mini spinner-input spinner-application applicationTape" data-slider="#rangeSlider1" name="ApplicationTape" value="4">
+                                                    <p class="appTime">mins</p>
+                                                </div>
+                                                <label for="PrespacedGraphics" data-container="body" data-toggle="popover" data-placement="top" data-content="How many minutes to mount 1.2 x 1 meter (4ft. x 3ft.) prespaced graphics?">Prespaced graphics</label>
+                                                <div id="rangeSlider2" class="rs2 rangeSlider prespacedGraphics" data-spinner="#spinner2"></div>
+                                                <div class="numericSpinner spinner">
+                                                    <input type="tel" pattern="\d*" id="spinner2" class="input-mini spinner-input spinner-application prespacedGraphics" data-slider="#rangeSlider2" name="PrespacedGraphics" value="6">
+                                                    <p class="appTime">mins</p>
+                                                </div>
+                                                <label for="DigitalPrints" data-container="body" data-toggle="popover" data-placement="top" data-content="How many minutes to mount 1.2 x 1 meter (4ft. x 3ft.) digital printed film to a panel?">Digital prints</label>
+                                                <div id="rangeSlider3" class="rs3 rangeSlider digitalPrint" data-spinner="#spinner3"></div>
+                                                <div class="numericSpinner spinner">
+                                                    <input type="tel" pattern="\d*" id="spinner3" class="input-mini spinner-input spinner-application digitalPrint" data-slider="#rangeSlider3" name="DigitalPrints" value="10">
+                                                    <p class="appTime">mins</p>
+                                                </div>
+                                                <a class="calculator_showresult_btn main-button main-button-2 no-slide" href="#carousel-example-generic" data-slide="next">Next</a>
+                                            </div>
+
+                                        </div>
+</form>
+
+</div> <!-- div col-md-6 -->
+<div class="col-md-6"><img class="center" src="/img/calc/calculator_appliceringstape.jpg"></div>
+</div> <!-- div row -->
+     </div> <!-- div container -->
+    <script src="/bootstrap/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/tooltip-viewport.js"></script>
+
+<script>
+     $(document).ready(function() {
+       
+       $('#up1').click(function() {
+            var current = $('#rollsPerMonth').val();
+            $('#rollsPerMonth').val(current*1+1);
+        });
+       
+        $('#down1').click(function() {
+            var current = $('#rollsPerMonth').val();
+            $('#rollsPerMonth').val(current*1-1);
+        });
+       
+        $('#up2').click(function() {
+            var current = $('#digPerMonth').val();
+            $('#digPerMonth').val(current*1+1);
+        });
+       
+        $('#down2').click(function() {
+            var current = $('#digPerMonth').val();
+            $('#digPerMonth').val(current*1-1);
+        });
+       
+    });
+</script>
+</body>
+</html>
